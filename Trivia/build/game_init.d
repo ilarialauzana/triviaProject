@@ -1,5 +1,6 @@
-game_init.o: /home/nds/files/workspace/project/Trivia/source/game_init.c \
-  /home/nds/files/workspace/project/Trivia/source/game_init.h \
+game_init.o:  \
+ /home/nds/files/workspace/project/triviaProject/Trivia/source/game_init.c \
+  /home/nds/files/workspace/project/triviaProject/Trivia/source/game_init.h \
   /opt/devkitPro/libnds/include/nds.h \
   /opt/devkitPro/libnds/include/nds/libversion.h \
   /opt/devkitPro/libnds/include/nds/ndstypes.h \
@@ -48,10 +49,10 @@ game_init.o: /home/nds/files/workspace/project/Trivia/source/game_init.c \
   /opt/devkitPro/libnds/include/nds/arm9/sprite.h \
   /opt/devkitPro/libnds/include/nds/system.h \
   /opt/devkitPro/libnds/include/nds/arm9/decompress.h \
-  /home/nds/files/workspace/project/Trivia/source/P_Graphics.h \
-  /home/nds/files/workspace/project/Trivia/source/P_Map16x16.h
+  /home/nds/files/workspace/project/triviaProject/Trivia/source/P_Graphics.h \
+  /home/nds/files/workspace/project/triviaProject/Trivia/source/P_Map16x16.h
 
-/home/nds/files/workspace/project/Trivia/source/game_init.h:
+/home/nds/files/workspace/project/triviaProject/Trivia/source/game_init.h:
 
 /opt/devkitPro/libnds/include/nds.h:
 
@@ -149,6 +150,6 @@ game_init.o: /home/nds/files/workspace/project/Trivia/source/game_init.c \
 
 /opt/devkitPro/libnds/include/nds/arm9/decompress.h:
 
-/home/nds/files/workspace/project/Trivia/source/P_Graphics.h:
+/home/nds/files/workspace/project/triviaProject/Trivia/source/P_Graphics.h:
 
-/home/nds/files/workspace/project/Trivia/source/P_Map16x16.h:
+/home/nds/files/workspace/project/triviaProject/Trivia/source/P_Map16x16.h:

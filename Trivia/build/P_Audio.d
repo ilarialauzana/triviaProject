@@ -1,5 +1,6 @@
-P_Audio.o: /home/nds/files/workspace/project/Trivia/source/P_Audio.c \
-  /home/nds/files/workspace/project/Trivia/source/P_Audio.h \
+P_Audio.o:  \
+ /home/nds/files/workspace/project/triviaProject/Trivia/source/P_Audio.c \
+  /home/nds/files/workspace/project/triviaProject/Trivia/source/P_Audio.h \
   /opt/devkitPro/libnds/include/nds.h \
   /opt/devkitPro/libnds/include/nds/libversion.h \
   /opt/devkitPro/libnds/include/nds/ndstypes.h \
@@ -51,7 +52,7 @@ P_Audio.o: /home/nds/files/workspace/project/Trivia/source/P_Audio.c \
   /opt/devkitPro/libnds/include/maxmod9.h \
   /opt/devkitPro/libnds/include/mm_types.h
 
-/home/nds/files/workspace/project/Trivia/source/P_Audio.h:
+/home/nds/files/workspace/project/triviaProject/Trivia/source/P_Audio.h:
 
 /opt/devkitPro/libnds/include/nds.h:
 

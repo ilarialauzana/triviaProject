@@ -1,4 +1,5 @@
-main.o: /home/nds/files/workspace/project/Trivia/source/main.c \
+main.o:  \
+ /home/nds/files/workspace/project/triviaProject/Trivia/source/main.c \
   /opt/devkitPro/libnds/include/nds.h \
   /opt/devkitPro/libnds/include/nds/libversion.h \
   /opt/devkitPro/libnds/include/nds/ndstypes.h \
@@ -47,12 +48,12 @@ main.o: /home/nds/files/workspace/project/Trivia/source/main.c \
   /opt/devkitPro/libnds/include/nds/arm9/sprite.h \
   /opt/devkitPro/libnds/include/nds/system.h \
   /opt/devkitPro/libnds/include/nds/arm9/decompress.h \
-  /home/nds/files/workspace/project/Trivia/source/P_Controls.h \
-  /home/nds/files/workspace/project/Trivia/source/game_init.h \
-  /home/nds/files/workspace/project/Trivia/source/P_Graphics.h \
-  /home/nds/files/workspace/project/Trivia/source/P_Map16x16.h \
-  /home/nds/files/workspace/project/Trivia/source/P_Initializer.h \
-  /home/nds/files/workspace/project/Trivia/source/P_Audio.h \
+  /home/nds/files/workspace/project/triviaProject/Trivia/source/P_Controls.h \
+  /home/nds/files/workspace/project/triviaProject/Trivia/source/game_init.h \
+  /home/nds/files/workspace/project/triviaProject/Trivia/source/P_Graphics.h \
+  /home/nds/files/workspace/project/triviaProject/Trivia/source/P_Map16x16.h \
+  /home/nds/files/workspace/project/triviaProject/Trivia/source/P_Initializer.h \
+  /home/nds/files/workspace/project/triviaProject/Trivia/source/P_Audio.h \
   /opt/devkitPro/libnds/include/maxmod9.h \
   /opt/devkitPro/libnds/include/mm_types.h
 
@@ -152,17 +153,17 @@ main.o: /home/nds/files/workspace/project/Trivia/source/main.c \
 
 /opt/devkitPro/libnds/include/nds/arm9/decompress.h:
 
-/home/nds/files/workspace/project/Trivia/source/P_Controls.h:
+/home/nds/files/workspace/project/triviaProject/Trivia/source/P_Controls.h:
 
-/home/nds/files/workspace/project/Trivia/source/game_init.h:
+/home/nds/files/workspace/project/triviaProject/Trivia/source/game_init.h:
 
-/home/nds/files/workspace/project/Trivia/source/P_Graphics.h:
+/home/nds/files/workspace/project/triviaProject/Trivia/source/P_Graphics.h:
 
-/home/nds/files/workspace/project/Trivia/source/P_Map16x16.h:
+/home/nds/files/workspace/project/triviaProject/Trivia/source/P_Map16x16.h:
 
-/home/nds/files/workspace/project/Trivia/source/P_Initializer.h:
+/home/nds/files/workspace/project/triviaProject/Trivia/source/P_Initializer.h:
 
-/home/nds/files/workspace/project/Trivia/source/P_Audio.h:
+/home/nds/files/workspace/project/triviaProject/Trivia/source/P_Audio.h:
 
 /opt/devkitPro/libnds/include/maxmod9.h:
 
