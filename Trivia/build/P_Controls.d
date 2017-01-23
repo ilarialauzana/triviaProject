@@ -51,7 +51,14 @@ P_Controls.o:  \
   /opt/devkitPro/libnds/include/nds/arm9/decompress.h \
   /home/nds/files/workspace/project/triviaProject/Trivia/source/game_init.h \
   /home/nds/files/workspace/project/triviaProject/Trivia/source/P_Graphics.h \
-  /home/nds/files/workspace/project/triviaProject/Trivia/source/P_Map16x16.h
+  /home/nds/files/workspace/project/triviaProject/Trivia/source/P_Map16x16.h \
+  /home/nds/files/workspace/project/triviaProject/Trivia/source/getPlayer.h \
+  /home/nds/files/workspace/project/triviaProject/Trivia/build/soundbank.h \
+  /home/nds/files/workspace/project/triviaProject/Trivia/build/soundbank_bin.h \
+  /opt/devkitPro/libnds/include/maxmod9.h \
+  /opt/devkitPro/libnds/include/mm_types.h \
+  /opt/devkitPro/libnds/include/fat.h \
+  /opt/devkitPro/libnds/include/nds/disc_io.h
 
 /home/nds/files/workspace/project/triviaProject/Trivia/source/P_Controls.h:
 
@@ -156,3 +163,17 @@ P_Controls.o:  \
 /home/nds/files/workspace/project/triviaProject/Trivia/source/P_Graphics.h:
 
 /home/nds/files/workspace/project/triviaProject/Trivia/source/P_Map16x16.h:
+
+/home/nds/files/workspace/project/triviaProject/Trivia/source/getPlayer.h:
+
+/home/nds/files/workspace/project/triviaProject/Trivia/build/soundbank.h:
+
+/home/nds/files/workspace/project/triviaProject/Trivia/build/soundbank_bin.h:
+
+/opt/devkitPro/libnds/include/maxmod9.h:
+
+/opt/devkitPro/libnds/include/mm_types.h:
+
+/opt/devkitPro/libnds/include/fat.h:
+
+/opt/devkitPro/libnds/include/nds/disc_io.h:

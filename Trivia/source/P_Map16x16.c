@@ -17,26 +17,27 @@ u8 emptyTile[64] =
 
 u8 fullTile[64] =
 {
-	255,255,255,255,255,255,255,255,
-	255,255,255,255,255,255,255,255,
-	255,255,255,255,255,255,255,255,
-	255,255,255,255,255,255,255,255,
-	255,255,255,255,255,255,255,255,
-	255,255,255,255,255,255,255,255,
-	255,255,255,255,255,255,255,255,
-	255,255,255,255,255,255,255,255
+	254,254,254,254,254,254,254,254,
+	254,254,254,254,254,254,254,254,
+	254,254,254,254,254,254,254,254,
+	254,254,254,254,254,254,254,254,
+	254,254,254,254,254,254,254,254,
+	254,254,254,254,254,254,254,254,
+	254,254,254,254,254,254,254,254,
+	254,254,254,254,254,254,254,254
 };
 
 
-void P_Map16x16_configureBG1_Sub()
+void P_Map16x16_configureBG2_Sub()
 {
-	BGCTRL_SUB[1] = BG_32x32 | BG_COLOR_256 | BG_MAP_BASE(31) | BG_TILE_BASE(5);
+	BGCTRL_SUB[2] = BG_32x32 | BG_COLOR_256 | BG_MAP_BASE(31) | BG_TILE_BASE(5);
 
 	dmaCopy(emptyTile, (u8*)BG_TILE_RAM_SUB(5), 64);
 	dmaCopy(fullTile, (u8*)BG_TILE_RAM_SUB(5) + 64, 64);
 
 	BG_PALETTE_SUB[0] = ARGB16(1,12,22,12);
-	BG_PALETTE_SUB[255] = ARGB16(1,16,26,16);
+	BG_PALETTE_SUB[254] = ARGB16(1,16,26,16);
+	BG_PALETTE_SUB[255] = ARGB16(1,0,0,0);
 
 	mapMemory_sub = (u16*)BG_MAP_RAM_SUB(31);
 
@@ -70,8 +71,9 @@ void P_Map16x16_configureBG1()
 	dmaCopy(emptyTile, (u8*)BG_TILE_RAM(1), 64);
 	dmaCopy(fullTile, (u8*)BG_TILE_RAM(1)+64, 64);
 
-	BG_PALETTE[255] = ARGB16(1,16,26,16);
+	BG_PALETTE[254] = ARGB16(1,16,26,16);
 	BG_PALETTE[0] = ARGB16(0,0,0,0);
+	BG_PALETTE[255] = ARGB16(1,0,0,0);
 
 	//Set the pointer mapMemory to the RAM location of the chosen MAP_BASE
 	//Hint: use the macro BG_MAP_RAM
@@ -124,7 +126,7 @@ void P_Map16x16_Init( int cols, int rows )
     //Configure BG0 for game
     P_Map16x16_configureBG1();
     // Configure Bottom background
-    P_Map16x16_configureBG1_Sub();
+    P_Map16x16_configureBG2_Sub();
 #endif
 }
 

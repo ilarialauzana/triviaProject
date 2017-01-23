@@ -12,6 +12,7 @@ int main(void) {
     //srand( clock() );
 	Gameplay_Load();
 	while( true ) {
+		keyboardUpdate();
 		//handleInput();
 		swiWaitForVBlank();
 	}

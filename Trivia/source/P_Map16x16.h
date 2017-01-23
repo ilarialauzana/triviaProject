@@ -8,7 +8,7 @@ int MapCols;
 int MapRows;
 
 
-void P_Map16x16_configureBG1_Sub();
+void P_Map16x16_configureBG2_Sub();
 
 
 void P_Map16x16_configureBG1();
